@@ -22,5 +22,5 @@ under the License.
 // add methods as we determine what are the requirements
 
 module.exports.run = function () {
-    return Promise.resolve();
+    return new Promise(function (resolve, _reject) { resolve([]); });
 };
